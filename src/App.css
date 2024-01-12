@@ -1,0 +1,323 @@
+npm .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*burger css first page starts*/
+@font-face{
+font-family:AlfaSlabOne;
+src:url('fonts/AlfaSlabOne-Regular.ttf');
+}
+
+@font-face{
+  font-family:BebasNeue;
+  src:url('fonts/BebasNeue-Regular.ttf');
+  }
+  
+
+
+
+
+.navsec{
+
+margin:0px
+
+
+}
+.gl-fptxt-photo{
+padding:20px 0px 31px 0px;
+margin-bottom:0px;
+
+}
+.gl-fptxt{
+margin:80px 0px 0px 0px ;
+}
+.gl-itgtftb{
+  padding:3px 4px 3px 5px;
+border: 2px dotted black;
+font-weight: bold;
+font-size: 12px;
+}
+.gl-burger{
+font-family:AlfaSlabOne ;
+font-size: 80px;
+}
+.gl-week{
+  top: -12px;
+  font-family: AlfaSlabOne;
+  font-size: 50px;
+  
+}
+@media  (max-width:580px){
+  .gl-fpbgimg{
+    padding:0px 0px 0px 0px;
+
+  }
+body{
+
+ contain: content;
+}
+  
+}
+@media (min-width:992PX){
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  position: absolute;
+  right: 90px;}
+}
+/*first page css ends*/
+
+
+/* second page css starts*/
+.two{
+padding: 35px 0px 0px 0px;
+}
+@media (max-width:768px){
+  
+.leftsideimg{
+  margin:0px 0px 7px 0px;
+}
+
+}
+.altb-butn{
+background-color: #e8b049;
+border-radius: 1px;
+color:rgb(48, 5, 5);
+margin: 10px 0px 20px 0px;
+}
+.altb-butn:hover{
+  color:rgb(249, 253, 250);
+  background-color: #f03515;
+ border-color: seagreen;
+
+
+
+}
+
+/* second page css ends*/
+
+
+/* third page css starts*/
+.three{
+color:rgb(48, 5, 5);
+
+}
+.threephotos-txtimg{
+text-align: center;
+
+
+}
+.orderNow-buton{
+color:white;
+background-color: #f03515;
+text-align: center;
+border-color: #f03515;
+font-family: AlfaSlabOne;
+padding:10px 30px 10px 30px ;
+
+}
+.orderNow-buton:hover{
+color:#b1ee0a;
+background-color:#ff1313;
+border-color: #80ff0a;
+
+}
+/* third page css ends*/
+
+/* fourth page css starts*/
+.four{
+
+  color:rgb(48, 5, 5);
+}
+.gl-Discover{
+
+font-family:BebasNeue;
+font-size: 28px;
+
+}
+.gl-upcomingevents{
+  font-family:AlfaSlabOne ;
+  font-size:30px;
+  
+}
+.gl-fourptag{
+  margin: 25px 0px 50px 1px;
+
+}
+.gl-divdots{
+
+display:flex;
+gap:3px;
+
+
+}
+.gl-onedot{
+width:10px;
+height:10px;
+background-color: yellow;
+border-radius:10px;
+
+}
+.gl-twodots{
+
+  width:10px;
+  height:10px;
+  background-color: rgb(163, 163, 132);
+  border-radius:10px;
+  margin-bottom: 5px;
+  
+
+}
+
+/*fourth page css ends*/
+
+/*fifth page css starts*/
+.gl-reservation{
+
+color:rgb(48, 5, 5);
+margin-left: 20%;
+font-family: BebasNeue;
+
+}
+.reservationtable{
+
+
+color:rgb(48, 5, 5);
+font-family: AlfaSlabOne ;
+display:block;
+}
+
+@media (max-width:768px){
+.reservationtable{
+text-align: center;
+}
+.gl-reservation{
+margin-left: 190px;
+
+}
+.fi-bgimg{
+text-align: center;
+
+}
+.saucebottleimg{
+text-align: center;
+
+}
+.burgerPlate{
+  text-align: center;
+}
+
+  
+}
+@media (min-width:768px){
+  .burgerPlate{
+
+ text-align: right;
+  }
+
+}
+
+
+
+.gl-findatable{
+background-color:red;
+color:white;
+padding:0px 45px 0px 45px;
+border-color:red;
+
+}
+
+.gl-placeholders{
+text-align: center;
+margin-top:91px; 
+
+}
+
+.burgerPlate{
+margin-top:100px
+}
+
+/*fifthpagecss ends*/
+/* footerpage css starts*/
+.bgimg{
+background-image:url(images/footer_bg.jpg) ;
+background-repeat:no-repeat;
+color:white;
+
+}
+.iconsposition{
+margin:15px 0px 0px 0px;
+font-size: 13px;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+
+
+}
+.companyname{
+font-style: initial;
+font-size: small;
+
+}
+.endingLogos{
+display: flex;
+justify-content: end;
+gap:3px;
+
+}
+@media (max-width:786px){
+
+  .companyname{
+ text-align: center;
+ margin-top: 15px;
+  };
+
+ 
+
+
+}
+
+@media (max-width:786px){
+  .endingLogos{
+
+
+ position: relative;
+ right:33%;
+     }
+
+
+
+}
